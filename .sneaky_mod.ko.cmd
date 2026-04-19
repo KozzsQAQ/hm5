@@ -1,0 +1,1 @@
+cmd_/home/sj484/hw5/sneaky_mod.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/sj484/hw5/sneaky_mod.ko /home/sj484/hw5/sneaky_mod.o /home/sj484/hw5/sneaky_mod.mod.o;  true
